@@ -5,7 +5,7 @@ A pool temperature regulator & controller!
 ## Hardware
 
 1. Raspberry Pi Model 3 B
-2. [Screen](https://www.amazon.com/gp/product/B0153R2A9I/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+2. (Screen)[https://www.amazon.com/gp/product/B0153R2A9I/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1]
 3. [Case](https://www.amazon.com/gp/product/B01HV97F64/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 4. [Temperature Probe](https://www.amazon.com/gp/product/B01HV97F64/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 5. [Relay](https://www.amazon.com/gp/product/B0057OC6D8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
