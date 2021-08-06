@@ -12,11 +12,11 @@ A pool temperature regulator & controller!
 
 ## Helpful Documentation
 
-1. (GPIO Mappings)[https://www.raspberrypi.org/documentation/usage/gpio/]
-2. (Temp Sensor)[https://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/]
-3. (RPi.GPIO Examples)[https://learn.sparkfun.com/tutorials/raspberry-gpio/all#python-rpigpio-example]
-4. (Other Language Codes Samples)[https://elinux.org/RPi_GPIO_Code_Samples#RPi.GPIO]
-5. (RPio.GPIO Basic Usage)[https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/]
-6. (gpiozero library)[https://www.raspberrypi.org/documentation/usage/gpio/python/README.md]
-7. (gpiozero docs)[https://gpiozero.readthedocs.io/en/stable/]
-8. (RPi.GPIO vs. gpiozero thread)[https://www.raspberrypi.org/forums/viewtopic.php?t=204466#p1268675]
+1. [GPIO Mappings](https://www.raspberrypi.org/documentation/usage/gpio/)
+2. [Temp Sensor](https://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/)
+3. [RPi.GPIO Examples](https://learn.sparkfun.com/tutorials/raspberry-gpio/all#python-rpigpio-example)
+4. [Other Language Codes Samples](https://elinux.org/RPi_GPIO_Code_Samples#RPi.GPIO)
+5. [RPio.GPIO Basic Usage](https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/)
+6. [gpiozero library](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md)
+7. [gpiozero docs](https://gpiozero.readthedocs.io/en/stable/)
+8. [RPi.GPIO vs. gpiozero thread](https://www.raspberrypi.org/forums/viewtopic.php?t=204466#p1268675)
