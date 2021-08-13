@@ -15,7 +15,7 @@ const (
 // sudo apt install golang
 // file is at: /sys/bus/w1/devices/28-<12-byte hash>/
 func main() {
-	fg := sensor_base_dir + "/28-*"
+	fg := sensor_base_dir + "/28-*/*"
 	files, err := filepath.Glob(fg)
 	if err != nil {
 		log.Println(err)
@@ -23,13 +23,20 @@ func main() {
 	}
 
 	for _, f := range files {
+		log.Println("Checking: "+f)
 		if strings.HasSuffix(f, "/temperature") {
 			for {
 				b, err := ioutil.ReadFile(f)
+				strings.Replace(string(b), "\n", "", -1)
+				log.Println("RAW BYTES: "+string(b))
 				if err != nil {
 					log.Println("ERROR: ", err)
 				}
-				bs, _ := strconv.ParseInt(string(b), 10, 32)
+
+				bs, err := strconv.ParseInt(string(b[:5]), 10, 32)
+				if err != nil {
+					log.Println("ERROR: ", err)
+				}
 				log.Println("TEMP: ", bs)
 			}
 		}
