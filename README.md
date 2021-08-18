@@ -14,6 +14,5 @@ A pool temperature regulator & controller!
 
 1. [GPIO Mappings](https://www.raspberrypi.org/documentation/usage/gpio/)
 2. [Temp Sensor](https://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/)
-3. [RPi.GPIO Examples](https://learn.sparkfun.com/tutorials/raspberry-gpio/all#python-rpigpio-example)
-4. [Other Language Codes Samples](https://elinux.org/RPi_GPIO_Code_Samples#RPi.GPIO)
-5. [go-rpio](https://github.com/stianeikeland/go-rpio)
+3. [Other Language Codes Samples](https://elinux.org/RPi_GPIO_Code_Samples#RPi.GPIO)
+4. [go-rpio](https://github.com/stianeikeland/go-rpio)
